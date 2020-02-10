@@ -16,14 +16,7 @@
    whatsapp : Termux cyber   
 
 [+] Installation :-
-  
-    apt update && apt upgrade
-    apt install git   
-    apt install python2
-    git clone https://github.com/TechnicalMujeeb/Termux-Lazyscript.git
-    cd Termux-Lazyscript
-    chmod +x *
-    sh setup.sh
+<a href="https://www.learntermux.tech/2020/02/Install-Lazy-Script-in-Termux.html">COMPLETE INSTALLATION</a>
 
 [+] usage :-
 
