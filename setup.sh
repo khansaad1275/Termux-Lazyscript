@@ -12,27 +12,29 @@ cyan='\033[1;96m'
 white='\033[1;97m'
 
 
-
+echo "$green Updateing Termux...."
+apt update && apt upgrade
+echo ""
 echo "$green Installing Termux-API...."
-pkg install termux-api -y
+pkg install termux-api
 echo ""
 echo "$green Installing PHP...."
-pkg install php -y
+pkg install php
 echo ""
 echo "$green installing Curl....."
-pkg install curl -y
+pkg install curl
 echo ""
 echo "$green installing Curl....."
-pkg install hydra -y
-apt install hydra -y
+pkg install hydra
+apt install hydra
 echo ""
 echo "$green installing Python + requirements...."
-pkg install python -y
-pkg install python2 -y
-pip install requests -y
-pip2 install requests -y
-pip install colorama -y
-pip2 install colorama -y
+pkg install python
+pkg install python2
+pip install requests
+pip2 install requests
+pip install colorama
+pip2 install colorama
 
   if [ -f /data/data/com.termux/files/usr/bin/lolcat ];
   then
@@ -41,8 +43,8 @@ pip2 install colorama -y
       echo "$red [!] lolcat not found !"
       echo ""
       echo "$cyan Installing lolcat"
-      pkg install ruby -y
-      gem install lolcat -y
+      pkg install ruby
+      gem install lolcat
       echo "$green installation of lolcat ......DONE !"
   fi
 
@@ -61,5 +63,5 @@ echo "$green installation Finished !"
 echo ""
 echo "$yellow Now Run ls.py with python2"
 echo "" 
-echo "$cyan visit : WWW.LearnTermux.tech for detailed information. "
+echo "$cyan subscribe Technical Mujeeb YT channel for more tools."
 echo "" 
