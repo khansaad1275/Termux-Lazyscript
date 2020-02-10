@@ -16,10 +16,4 @@
    whatsapp : Termux cyber   
 
 [+] Installation :-
-<a href="https://www.learntermux.tech/2020/02/Install-Lazy-Script-in-Termux.html">COMPLETE INSTALLATION</a>
-
-[+] usage :-
-
-    python2 ls.py
-    (here simply type number to use that tool)
-    Enjoy.
+<a href="https://www.learntermux.tech/2020/02/Install-Lazy-Script-in-Termux.html">How to install Lazy Script in Termux - 2020 /a>
